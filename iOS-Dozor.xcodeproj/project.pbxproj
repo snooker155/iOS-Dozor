@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A03D33516406CA300F27966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03D33416406CA300F27966 /* UIKit.framework */; };
+		3A03D33716406CA300F27966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03D33616406CA300F27966 /* Foundation.framework */; };
+		3A03D33916406CA300F27966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A03D33816406CA300F27966 /* CoreGraphics.framework */; };
+		3A03D33F16406CA300F27966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A03D33D16406CA300F27966 /* InfoPlist.strings */; };
+		3A03D34116406CA300F27966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D34016406CA300F27966 /* main.m */; };
+		3A03D34516406CA300F27966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D34416406CA300F27966 /* AppDelegate.m */; };
+		3A03D34816406CA300F27966 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03D34616406CA300F27966 /* MainStoryboard_iPhone.storyboard */; };
+		3A03D34B16406CA300F27966 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03D34916406CA300F27966 /* MainStoryboard_iPad.storyboard */; };
+		3A03D34E16406CA300F27966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D34D16406CA300F27966 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A03D33016406CA300F27966 /* iOS-Dozor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Dozor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A03D33416406CA300F27966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A03D33616406CA300F27966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A03D33816406CA300F27966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A03D33C16406CA300F27966 /* iOS-Dozor-Info.plist */ = {isa = PBXFileReference; path = "iOS-Dozor-Info.plist"; sourceTree = "<group>"; };
+		3A03D33E16406CA300F27966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A03D34016406CA300F27966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A03D34216406CA300F27966 /* iOS-Dozor-Prefix.pch */ = {isa = PBXFileReference; path = "iOS-Dozor-Prefix.pch"; sourceTree = "<group>"; };
+		3A03D34316406CA300F27966 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A03D34416406CA300F27966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A03D34716406CA300F27966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3A03D34A16406CA300F27966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3A03D34C16406CA300F27966 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3A03D34D16406CA300F27966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A03D32D16406CA300F27966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03D33516406CA300F27966 /* UIKit.framework in Frameworks */,
+				3A03D33716406CA300F27966 /* Foundation.framework in Frameworks */,
+				3A03D33916406CA300F27966 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A03D32516406CA300F27966 = {
+			isa = PBXGroup;
+			children = (
+				3A03D33A16406CA300F27966 /* iOS-Dozor */,
+				3A03D33316406CA300F27966 /* Frameworks */,
+				3A03D33116406CA300F27966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A03D33116406CA300F27966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A03D33016406CA300F27966 /* iOS-Dozor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A03D33316406CA300F27966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A03D33416406CA300F27966 /* UIKit.framework */,
+				3A03D33616406CA300F27966 /* Foundation.framework */,
+				3A03D33816406CA300F27966 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A03D33A16406CA300F27966 /* iOS-Dozor */ = {
+			isa = PBXGroup;
+			children = (
+				3A03D34316406CA300F27966 /* AppDelegate.h */,
+				3A03D34416406CA300F27966 /* AppDelegate.m */,
+				3A03D34616406CA300F27966 /* MainStoryboard_iPhone.storyboard */,
+				3A03D34916406CA300F27966 /* MainStoryboard_iPad.storyboard */,
+				3A03D34C16406CA300F27966 /* ViewController.h */,
+				3A03D34D16406CA300F27966 /* ViewController.m */,
+				3A03D33B16406CA300F27966 /* Supporting Files */,
+			);
+			path = "iOS-Dozor";
+			sourceTree = "<group>";
+		};
+		3A03D33B16406CA300F27966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A03D33C16406CA300F27966 /* iOS-Dozor-Info.plist */,
+				3A03D33D16406CA300F27966 /* InfoPlist.strings */,
+				3A03D34016406CA300F27966 /* main.m */,
+				3A03D34216406CA300F27966 /* iOS-Dozor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A03D32F16406CA300F27966 /* iOS-Dozor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A03D35116406CA300F27966 /* Build configuration list for PBXNativeTarget "iOS-Dozor" */;
+			buildPhases = (
+				3A03D32C16406CA300F27966 /* Sources */,
+				3A03D32D16406CA300F27966 /* Frameworks */,
+				3A03D32E16406CA300F27966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Dozor";
+			productName = "iOS-Dozor";
+			productReference = 3A03D33016406CA300F27966 /* iOS-Dozor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A03D32716406CA300F27966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "izub.anton@gmail.com";
+			};
+			buildConfigurationList = 3A03D32A16406CA300F27966 /* Build configuration list for PBXProject "iOS-Dozor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A03D32516406CA300F27966;
+			productRefGroup = 3A03D33116406CA300F27966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A03D32F16406CA300F27966 /* iOS-Dozor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A03D32E16406CA300F27966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03D33F16406CA300F27966 /* InfoPlist.strings in Resources */,
+				3A03D34816406CA300F27966 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3A03D34B16406CA300F27966 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A03D32C16406CA300F27966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A03D34116406CA300F27966 /* main.m in Sources */,
+				3A03D34516406CA300F27966 /* AppDelegate.m in Sources */,
+				3A03D34E16406CA300F27966 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A03D33D16406CA300F27966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A03D33E16406CA300F27966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A03D34616406CA300F27966 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A03D34716406CA300F27966 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3A03D34916406CA300F27966 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A03D34A16406CA300F27966 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A03D34F16406CA300F27966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A03D35016406CA300F27966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A03D35216406CA300F27966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Dozor/iOS-Dozor-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Dozor/iOS-Dozor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A03D35316406CA300F27966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Dozor/iOS-Dozor-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Dozor/iOS-Dozor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A03D32A16406CA300F27966 /* Build configuration list for PBXProject "iOS-Dozor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A03D34F16406CA300F27966 /* Debug */,
+				3A03D35016406CA300F27966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A03D35116406CA300F27966 /* Build configuration list for PBXNativeTarget "iOS-Dozor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A03D35216406CA300F27966 /* Debug */,
+				3A03D35316406CA300F27966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A03D32716406CA300F27966 /* Project object */;
+}
