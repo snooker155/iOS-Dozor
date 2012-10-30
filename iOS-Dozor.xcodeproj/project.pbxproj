@@ -16,6 +16,11 @@
 		3A03D34816406CA300F27966 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03D34616406CA300F27966 /* MainStoryboard_iPhone.storyboard */; };
 		3A03D34B16406CA300F27966 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03D34916406CA300F27966 /* MainStoryboard_iPad.storyboard */; };
 		3A03D34E16406CA300F27966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D34D16406CA300F27966 /* ViewController.m */; };
+		3A03D3591640860B00F27966 /* y_2da03699.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A03D3581640860B00F27966 /* y_2da03699.jpg */; };
+		3A03D35D164086AD00F27966 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D35C164086AD00F27966 /* Player.m */; };
+		3A03D360164086BB00F27966 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D35F164086BB00F27966 /* Item.m */; };
+		3A03D363164086C500F27966 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D362164086C500F27966 /* Location.m */; };
+		3A03D366164086D700F27966 /* Quest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A03D365164086D700F27966 /* Quest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,25 @@
 		3A03D33416406CA300F27966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3A03D33616406CA300F27966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3A03D33816406CA300F27966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3A03D33C16406CA300F27966 /* iOS-Dozor-Info.plist */ = {isa = PBXFileReference; path = "iOS-Dozor-Info.plist"; sourceTree = "<group>"; };
+		3A03D33C16406CA300F27966 /* iOS-Dozor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Dozor-Info.plist"; sourceTree = "<group>"; };
 		3A03D33E16406CA300F27966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A03D34016406CA300F27966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3A03D34216406CA300F27966 /* iOS-Dozor-Prefix.pch */ = {isa = PBXFileReference; path = "iOS-Dozor-Prefix.pch"; sourceTree = "<group>"; };
-		3A03D34316406CA300F27966 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A03D34216406CA300F27966 /* iOS-Dozor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Dozor-Prefix.pch"; sourceTree = "<group>"; };
+		3A03D34316406CA300F27966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A03D34416406CA300F27966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3A03D34716406CA300F27966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3A03D34A16406CA300F27966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3A03D34C16406CA300F27966 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3A03D34C16406CA300F27966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3A03D34D16406CA300F27966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A03D3581640860B00F27966 /* y_2da03699.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = y_2da03699.jpg; path = ../../../../Downloads/y_2da03699.jpg; sourceTree = "<group>"; };
+		3A03D35B164086AD00F27966 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		3A03D35C164086AD00F27966 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3A03D35E164086BB00F27966 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		3A03D35F164086BB00F27966 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		3A03D361164086C500F27966 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		3A03D362164086C500F27966 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		3A03D364164086D700F27966 /* Quest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quest.h; sourceTree = "<group>"; };
+		3A03D365164086D700F27966 /* Quest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,14 @@
 				3A03D34C16406CA300F27966 /* ViewController.h */,
 				3A03D34D16406CA300F27966 /* ViewController.m */,
 				3A03D33B16406CA300F27966 /* Supporting Files */,
+				3A03D35B164086AD00F27966 /* Player.h */,
+				3A03D35C164086AD00F27966 /* Player.m */,
+				3A03D35E164086BB00F27966 /* Item.h */,
+				3A03D35F164086BB00F27966 /* Item.m */,
+				3A03D361164086C500F27966 /* Location.h */,
+				3A03D362164086C500F27966 /* Location.m */,
+				3A03D364164086D700F27966 /* Quest.h */,
+				3A03D365164086D700F27966 /* Quest.m */,
 			);
 			path = "iOS-Dozor";
 			sourceTree = "<group>";
@@ -93,6 +115,7 @@
 		3A03D33B16406CA300F27966 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A03D3581640860B00F27966 /* y_2da03699.jpg */,
 				3A03D33C16406CA300F27966 /* iOS-Dozor-Info.plist */,
 				3A03D33D16406CA300F27966 /* InfoPlist.strings */,
 				3A03D34016406CA300F27966 /* main.m */,
@@ -155,6 +178,7 @@
 				3A03D33F16406CA300F27966 /* InfoPlist.strings in Resources */,
 				3A03D34816406CA300F27966 /* MainStoryboard_iPhone.storyboard in Resources */,
 				3A03D34B16406CA300F27966 /* MainStoryboard_iPad.storyboard in Resources */,
+				3A03D3591640860B00F27966 /* y_2da03699.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +192,10 @@
 				3A03D34116406CA300F27966 /* main.m in Sources */,
 				3A03D34516406CA300F27966 /* AppDelegate.m in Sources */,
 				3A03D34E16406CA300F27966 /* ViewController.m in Sources */,
+				3A03D35D164086AD00F27966 /* Player.m in Sources */,
+				3A03D360164086BB00F27966 /* Item.m in Sources */,
+				3A03D363164086C500F27966 /* Location.m in Sources */,
+				3A03D366164086D700F27966 /* Quest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +317,7 @@
 				3A03D35316406CA300F27966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
